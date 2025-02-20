@@ -1,0 +1,8 @@
+.h1{
+    color: black;
+}
+.bg{
+    width: 1000px;
+    height: 2000px;
+    background-image: url('../assets/unsplash_xJ2tjuUHD9M.png');
+}
