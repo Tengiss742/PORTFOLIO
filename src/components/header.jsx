@@ -2,12 +2,24 @@ import './header.css'
 function Header(){
     return(
         <>
-        <div className='h1'>
-        <h1>Hi</h1>
-        <h1>I'm</h1>
-        </div>
-        <h1>Tengis</h1>
+       
+        <div className='bg'> 
+            <div>
+                <h1>Hi
+                     I'm 
+                </h1>
+            </div>
+        <div className='container'>
+         <p className='text'>Tengis Gang</p>
 
+        </div>
+        
+    </div>
+
+    
+       
+       
+        
         </>
     )
 }
