@@ -4,8 +4,8 @@ function Nav(){
         <>
          <nav className='navbar'>
             <div className='navdiv'>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Gaming Experience</a></li>
+                <li><a href="#About">About me</a></li>
+                <li><a href="#Gaming">Gaming Experience</a></li>
                 <li><a href="#">Social</a></li>
             </div>
          </nav>

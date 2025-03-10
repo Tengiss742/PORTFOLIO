@@ -10,3 +10,11 @@
     right: 0;
     z-index: 100;
 }
+
+.navbar .navdiv li a{
+    background-color: red;
+}
+.navbar .navdiv a:hover{
+    background-color: greenyellow;
+    transition: 1s;
+}
