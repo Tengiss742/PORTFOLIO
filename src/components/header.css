@@ -12,7 +12,7 @@
     letter-spacing: 10px;
     font-family: monospace;
     border-right: 5px solid;
-    width: 500px;
+    width: 1000px;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(19) ;
@@ -24,3 +24,4 @@
 @keyframes typing {
     from {width: 0;}
 }
+

@@ -11,7 +11,6 @@ function App() {
   <div>
     <Nav/>
     <Header/>
-   
   </div>
    
 

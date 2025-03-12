@@ -4,14 +4,13 @@ function Header(){
         <>
        
         <div className='bg'> 
-            <div>
-                <h1>Hi
+              
+        <div className='container'>
+              <h1>Hi
                      I'm 
                 </h1>
-            </div>
-        <div className='container'>
          <p className='text'>Tengis Gang</p>
-
+            <div className='bg2'></div>
         </div>
         
     </div>
