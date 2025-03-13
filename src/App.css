@@ -34,3 +34,12 @@
 .li a:nth-child(2){
     padding-left: 3px;
 }
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+.bg2{
+
+}

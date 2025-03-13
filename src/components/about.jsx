@@ -2,8 +2,8 @@ import '.about.css'
 function About(){
     return(
         <>
-        <div>
-            
+        <div className='bg2'> 
+        
         </div>
 
         </>

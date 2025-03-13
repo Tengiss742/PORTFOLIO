@@ -2,7 +2,9 @@ import './header.css'
 function Header(){
     return(
         <>
-       
+
+        
+
         <div className='bg'> 
               
         <div className='container'>
@@ -11,6 +13,7 @@ function Header(){
                 </h1>
          <p className='text'>Tengis Gang</p>
             <div className='bg2'></div>
+
         </div>
         
     </div>
