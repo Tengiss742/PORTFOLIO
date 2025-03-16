@@ -40,6 +40,11 @@
     align-items: end;
 
 }
-.bg2{
-
+.background{
+    background: linear-gradient(#ff4d6d, #800f2f);
+    width: 100vw;
+    height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
 }

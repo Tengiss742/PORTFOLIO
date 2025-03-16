@@ -1,0 +1,45 @@
+.Gradient{
+width:100vw;
+height: 100vh;
+background: linear-gradient(aqua, blue, #e9edc9, #6a994e, #a7c957);
+}
+.card{
+    width: 300px;
+    height: 500px;
+    border: 2px solid #6a994e;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: #81b29a;
+    border-radius: 16px;
+    cursor: pointer;
+    color: #4c956c;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.COntainer{
+    display: flex;
+    justify-content: space-around;
+}
+.card:hover{
+    color: aliceblue;
+    transition: 2s;
+}
+.iconify{
+    color: darkgreen;
+    font-size: 8rem;
+    display: flex;
+    gap: 320px;
+    justify-content: center;
+    margin-top: 150px;
+}
+.sun{
+    font-size: 4rem;
+    display: flex;
+    color: yellow;
+    justify-content: center;
+    
+
+}
