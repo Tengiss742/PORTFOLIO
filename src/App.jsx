@@ -4,6 +4,7 @@ import Header from './components/header.jsx'
 import Nav from './components/nav.jsx'
 import { FaBeer } from 'react-icons/fa';
 import About from './components/about.jsx';
+import Gaming from './components/gaming.jsx';
 
 
 
@@ -16,7 +17,7 @@ function App() {
     <Nav/>
     <Header/>
     <About/>
-   
+   <Gaming />
 
   </div>
    

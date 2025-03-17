@@ -1,0 +1,18 @@
+.Background{
+    background-image: url("../assets/unsplash_NuBvAE6VfSM.png");
+    width:100vw ;
+    height: 100vh;
+}
+.mostt{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+}
+.most{
+    color: white;
+    background-color: black;
+    text-align: center;
+}

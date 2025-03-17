@@ -48,3 +48,16 @@
 html {
     scroll-behavior: smooth;
 }
+.Gackground{
+    background-image: url('./assets/unsplash_NuBvAE6VfSM.png');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mostt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 400px;
+}
