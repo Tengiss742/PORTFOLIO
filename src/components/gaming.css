@@ -50,3 +50,64 @@ body{
 .slider::after{
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%);
 }
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
+.slide-tracker{
+    display: flex;
+    width: calc(250px * 18);
+}
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items:center;
+    padding: 15px;
+    perspective: 100px;
+}
+img {
+    width: 100%;
+    transition: transform 1s;
+}
+.slider::before,
+.slider::after{
+
+    content: '';
+    height: 100%;
+    position:absolute;
+    width: 15%;
+    z-index: 2;
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+img:hover{
+    transform: translateZ(20px);
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+.slide-tracker{
+    display: flex;
+    width: calc(250px * 18);
+    animation:scroll 40s linear infinite;
+}
+.slide-tracker:hover{
+    animation-play-state: paused;
+}
