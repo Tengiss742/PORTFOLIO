@@ -16,9 +16,8 @@
     background-color: black;
     text-align: center;
 }
-.scroll-container{
-    
-}
+
+
 body{
     min-height: 100vh;
     display: grid;
