@@ -23,25 +23,6 @@ body{
     display: grid;
     place-items: center;
 }
-.slider{
-    height: 250px;
-    margin: auto;
-    position: relative;
-    width: 90%;
-    display: grid;
-    place-items: center;
-}
-.scroll-container track{
-    display: flex;
-    width: calc(250px * 18);
-}
-.scroll-container{
-    height: 200px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-}
 .img{
     width: 100%;
 }
@@ -105,8 +86,12 @@ img:hover{
 .slide-tracker{
     display: flex;
     width: calc(250px * 18);
-    animation:scroll 40s linear infinite;
+    animation:scroll 10s linear infinite;
 }
 .slide-tracker:hover{
     animation-play-state: paused;
+}
+.slider{
+    display: flex;
+    
 }
