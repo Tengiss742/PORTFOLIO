@@ -5,8 +5,9 @@ function Gaming(){
          <section id='Gaming'>
             <div className='Gackground'>
             <h1 className='most'>Favorite Games </h1>
+            <div className='dragon'> <img src='https://jerseygaming.co.id/wp-content/uploads/2020/02/logo-mobile-legends-1024x643.png' alt=""width="80px" /></div>
+            
                 <div className='mostt'>
-               
                 <div className='slide-tracker'>
                         <div className='slide'><img src="https://clipartcraft.com/images/minecraft-logo-png-2.png" alt=""width="40px"/></div> 
                         <div className='slide'> <img src="https://i.pinimg.com/originals/5e/d3/e5/5ed3e5f342657fa99dd1869fab1c59f0.png" alt=""width="100px"/></div> 
@@ -29,10 +30,10 @@ function Gaming(){
                          <div className='slide'> <img src="https://www.pinclipart.com/picdir/big/84-848818_soul-knight-alchemist-soul-knight-all-characters-clipart.png" alt=""width="60px"/></div>
                          <div className='slide'><img src="https://www.pngkey.com/png/full/201-2011625_terraria-png.png" alt="" /></div>
                         </div>
-        
                   </div>
-                  
-                 </div>
+                 
+                  </div>
+           
                 
                 
             
