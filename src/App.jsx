@@ -5,6 +5,7 @@ import Nav from './components/nav.jsx'
 import { FaBeer } from 'react-icons/fa';
 import About from './components/about.jsx';
 import Gaming from './components/gaming.jsx';
+import Social from './components/social.jsx';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Header/>
     <About/>
    <Gaming />
+   <Social/>
 
   </div>
    

@@ -61,3 +61,10 @@ html {
     align-items: center;
     padding: 400px;
 }
+.miniBackground{
+    background: url('../assets/new.avif');
+    width: 100vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,25 @@
+.miniBackground{
+    background: url('../assets/new.avif');
+    width: 100vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textshuu{
+    padding-top: 70px;
+    margin-left: 30px;
+    display: flex;
+}
+.iconnn1{
+    font-size: 5rem;
+    color:darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40rem;
+    top: 0%;
+    bottom: 0%;
+}
+.iconnn1 :nth-child(1){
+    margin-left: 260px;
+}
