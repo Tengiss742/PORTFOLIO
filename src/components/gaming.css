@@ -41,6 +41,7 @@ body{
 .slide-tracker{
     display: flex;
     width: calc(250px * 18);
+
 }
 .slide{
     height: 200px;

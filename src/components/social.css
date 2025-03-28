@@ -5,21 +5,34 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.textshuu{
+.textContainer{
     padding-top: 70px;
     margin-left: 30px;
     display: flex;
+    margin-bottom: 75px;
+    font-size: 10px;
 }
-.iconnn1{
-    font-size: 5rem;
+.icons{
+    font-size: 4rem;
     color:darkcyan;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40rem;
-    top: 0%;
-    bottom: 0%;
+    padding-bottom: 80px;
+    right: 0;
+    margin-top: 60px;
+   
 }
-.iconnn1 :nth-child(1){
+.icons :nth-child(1){
     margin-left: 260px;
+}
+.sad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icons :nth-child(3){
+    margin-right: 40px;
 }
