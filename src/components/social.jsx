@@ -12,11 +12,14 @@ function Social(){
                 <h1 className='textshuu'>Contact Me</h1> 
                 </div>
             <div className='icons'>
-            <FaSquareInstagram />
-            <FaFacebook />    
-            <FaDiscord />
-            
-
+           <a href="https://www.instagram.com/tengis108/" target='"_blank"'>
+           <FaSquareInstagram color="#E4405F"/>
+           </a> 
+           <a href="https://www.facebook.com/tengis.tengis.94801" target='"_blank"'>
+           <FaFacebook />  
+           </a>
+           <a href="https://discord.com/channels/@me/1272575482369671219"  target='"_blank"' >
+           <FaDiscord /></a> 
             </div>
             </div>
 

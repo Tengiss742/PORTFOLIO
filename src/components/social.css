@@ -4,9 +4,10 @@
     height: 20vh;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 .textContainer{
-    padding-top: 70px;
+    padding-top: 50px;
     margin-left: 30px;
     display: flex;
     margin-bottom: 75px;
@@ -18,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40rem;
+    gap: 13rem;
     padding-bottom: 80px;
     right: 0;
     margin-top: 60px;
@@ -36,3 +37,4 @@
 .icons :nth-child(3){
     margin-right: 40px;
 }
+

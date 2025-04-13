@@ -5,45 +5,20 @@ function About(){
     return(
         <>
         <section id='About'>
-        <div className='Gradient'>
-        <div className='sun'>
-            <FaSun />
-                </div>
-            <div className='COntainer'>
-            <div className='card' >
-           <h1>Test</h1>
-           <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa placeat amet perferendis, consequatur asperiores perspiciatis praesentium sit debitis doloremque velit nam sequi error aspernatur odit iste veritatis accusantium porro quas, ratione voluptatem, eos corporis autem possimus minima. Ipsam beatae voluptas nisi molestias ipsa facere quos possimus laboriosam, facilis libero laborum!</h3>
-          </div>
-          <div className='card' >
-           <h1>Test</h1>
-           <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo debitis, dicta sit veniam tempora, odit enim quod, deserunt nulla qui unde hic voluptatibus totam velit. Illo ducimus delectus eum error soluta, veniam sint. Maxime mollitia, quibusdam officiis quaerat fugit amet.</h3>
-          </div>
-          <div className='card' >
-           <h1>Test</h1>
-           <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores soluta, reprehenderit accusamus, earum enim quam doloremque iusto assumenda alias dolor! Alias fugiat perferendis repellendus cupiditate ipsam atque quidem, facilis nesciunt cum quos impedit soluta voluptate, consequatur quam? Tempore sunt ea in provident repellendus minima?</h3>
-          </div>
-
+        <div className='backgroundaa'>
+         <div className='box'>
+          <h1 className='zuere'>Childhood.</h1>
+         </div>
+         <div className='utas'>
+           <h1 className='adole'>Adolescene</h1>
+         </div>
+         <div className='future'>
+          <h1 className='ireedui'>Future</h1>
+         </div>
+         <img src="https://www.pngall.com/wp-content/uploads/14/Gohan-PNG-File.png" alt="" className='gohan'/>
            
-            </div>
-            <div className='iconify'>
-            <div className='iconscontainer'>
-            <FaTree />
-            </div>
-            <div className='iconscontainer1'>
-            <FaTree />
-            </div>
-            <div className='iconscontainer2'>
-            <FaTree />
-            </div>
-            <div className='iconscontainer3'>
-            <FaTree />
-            </div>
-            <div className='iconscontainer4'>
-            <FaTree />
-            </div>
-            </div>
-
-            </div>
+           
+        </div>
         </section>
 
         </>
