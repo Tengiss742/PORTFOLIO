@@ -3,9 +3,9 @@ import './App.css'
 import Header from './components/header.jsx'
 import Nav from './components/nav.jsx'
 import { FaBeer } from 'react-icons/fa';
-import About from './components/about.jsx';
 import Gaming from './components/gaming.jsx';
 import Social from './components/social.jsx';
+import MultiBoxPopup from './components/MultiBoxPopup.jsx';
 
 
 
@@ -17,7 +17,7 @@ function App() {
   <div>
     <Nav/>
     <Header/>
-    <About/>
+    <MultiBoxPopup/>
    <Gaming />
    <Social/>
 

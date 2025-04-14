@@ -1,0 +1,107 @@
+.loldota{
+    background-image: url("../assets/mathieu-bigard-U1o2u8UrHLc-unsplash.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.popup-container {
+    position: relative; 
+  }
+  
+  .popup-container.blur {
+    filter: blur(5px);
+  }
+  
+  /* Box styling */
+  .box {
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size:3rem;
+  }
+  
+  .box1 {
+    background-color:#a2d2ff;
+    margin-left: 30px;
+    height: 290px;
+    color: black;
+    
+  }
+  
+  .box2 {
+    background-color:aquamarine;
+    margin-left: 450px;
+    color: black;
+  }
+  
+  .box3 {
+    background-color:#669bbc;
+    margin-top: 30px;
+    margin-left: 900px;
+    color: black;
+  }
+  
+  /* Overlay popup styling */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px); /* Background blur */
+    z-index: 10000; /* Make sure it's on top */
+  }
+  
+  /* When popup is active, show it */
+  .popup-overlay.active {
+    display: flex;
+  }
+  
+  /* Popup box styling */
+  .popup-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  /* Close button for popup */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .box1:hover{
+    background-color:#023e8a;
+    transition: 1s;
+    color:white;
+  }
+  .box2:hover{
+    background-color: #669bbc;
+    color:white;
+    transition: 1s;
+  }
+  .box3:hover{
+    background-color: #a2d2ff;
+    color:white;
+    transition: 1s;
+  }
+  .gohan{
+    width: 500px;
+    right: 0;
+    margin-left: 150px;
+}
+  
