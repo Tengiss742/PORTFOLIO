@@ -44,7 +44,7 @@
   .box3 {
     background-color:#669bbc;
     margin-top: 30px;
-    margin-left: 900px;
+    margin-left: 850px;
     color: black;
   }
   
@@ -100,8 +100,12 @@
     transition: 1s;
   }
   .gohan{
-    width: 500px;
+    width: 400px;
     right: 0;
     margin-left: 150px;
+    top: 0px;
+    position: absolute;
 }
-  
+  #about{
+    position: relative;
+  }
