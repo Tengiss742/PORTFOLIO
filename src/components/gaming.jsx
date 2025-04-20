@@ -1,37 +1,47 @@
 import './gaming.css'
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+const images = [
+    'https://1.bp.blogspot.com/-zMJ5KA_mutU/X-wv7J5rr6I/AAAAAAAABVw/ICn99weE0qohh1rL5uORgajkO_JOKQqNgCLcBGAsYHQ/s2048/MLBB%2B%2528Mobil%2BLegends%2BBang%2BBang%2529%2B-%2BLogovectorXyz.png',
+    'https://static.vecteezy.com/system/resources/previews/019/017/536/original/valorant-logo-transparent-free-png.png',
+    'https://th.bing.com/th/id/R.b3cac3682d25b4dc0d7cc4c38fd61fa1?rik=MucHSkJhvuB0og&pid=ImgRaw&r=0',
+    'https://logos-world.net/wp-content/uploads/2020/12/Dota-2-Logo.png',
+    'https://pnghq.com/wp-content/uploads/roblox-logo-free-image-png-768x768.png',
+  ];
+  
 function Gaming(){
+    const settings = {
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
+        arrows: false,
+        pauseOnHover: false,
+      };
+    
     return(
         <>
          <section id='Gaming'>
             <div className='Gackground'>
             <h1 className='most'>Favorite Games </h1>
             <div className='dragon'> <img src='https://jerseygaming.co.id/wp-content/uploads/2020/02/logo-mobile-legends-1024x643.png' alt=""width="80px" /></div>
-            
-                <div className='mostt'>
-                <div className='slide-tracker'>
-                        <div className='slide'><img src="https://clipartcraft.com/images/minecraft-logo-png-2.png" alt=""width="40px"/></div> 
-                        <div className='slide'> <img src="https://i.pinimg.com/originals/5e/d3/e5/5ed3e5f342657fa99dd1869fab1c59f0.png" alt=""width="100px"/></div> 
-                         <div className='slide'>   <img src="https://static.vecteezy.com/system/resources/previews/024/983/597/original/valorant-logo-transparent-free-png.png" alt="" width="60px" /></div>
-                         <div className='slide'><img src="https://th.bing.com/th/id/R.802d1112c9b194b39af9d69162a77402?rik=SNyGICruK8kEjA&pid=ImgRaw&r=0" alt=""width="80px"/></div>
-                         <div className='slide'><img src="https://th.bing.com/th/id/R.b4c681df2a4c3c8b1772ed00713958bf?rik=qheUUKTkM0gWmw&pid=ImgRaw&r=0" alt="" /></div>
-                         <div className='slide'>
-                         <img src="https://th.bing.com/th/id/R.f5bd93fd40b2baddc1f5f3eed832e869?rik=yAi14gcLhgMoyA&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2frealsteel%2fimages%2fa%2fa8%2fImg-2208965-1-Atom_Real_Steel_Boxer.png%2frevision%2flatest%3fcb%3d20140915183810&ehk=xnfjr9Lc9FrA7ibKJQwmI6HfzlryL%2bAop0RDUReuHlc%3d&risl=&pid=ImgRaw&r=0" alt=""width="60px" /></div>
-                         <div className='slide'><img src="https://th.bing.com/th/id/R.362a504722e494b5a2930a1f27018e0a?rik=Tb%2fKbNNT%2f61miw&pid=ImgRaw&r=0" alt="" /></div>
-                         <div className='slide'> <img src="https://www.pinclipart.com/picdir/big/84-848818_soul-knight-alchemist-soul-knight-all-characters-clipart.png" alt=""width="60px"/></div>
-                         <div className='slide'><img src="https://www.pngkey.com/png/full/201-2011625_terraria-png.png" alt="" /></div>
-                         <div className='slide'><img src="https://clipartcraft.com/images/minecraft-logo-png-2.png" alt=""width="40px"/></div> 
-                        <div className='slide'> <img src="https://i.pinimg.com/originals/5e/d3/e5/5ed3e5f342657fa99dd1869fab1c59f0.png" alt=""width="100px"/></div> 
-                         <div className='slide'>   <img src="https://static.vecteezy.com/system/resources/previews/024/983/597/original/valorant-logo-transparent-free-png.png" alt="" width="60px" /></div>
-                         <div className='slide'><img src="https://th.bing.com/th/id/R.802d1112c9b194b39af9d69162a77402?rik=SNyGICruK8kEjA&pid=ImgRaw&r=0" alt=""width="80px"/></div>
-                         <div className='slide'><img src="https://th.bing.com/th/id/R.b4c681df2a4c3c8b1772ed00713958bf?rik=qheUUKTkM0gWmw&pid=ImgRaw&r=0" alt="" /></div>
-                         <div className='slide'>
-                         <img src="https://th.bing.com/th/id/R.f5bd93fd40b2baddc1f5f3eed832e869?rik=yAi14gcLhgMoyA&riu=http%3a%2f%2fvignette1.wikia.nocookie.net%2frealsteel%2fimages%2fa%2fa8%2fImg-2208965-1-Atom_Real_Steel_Boxer.png%2frevision%2flatest%3fcb%3d20140915183810&ehk=xnfjr9Lc9FrA7ibKJQwmI6HfzlryL%2bAop0RDUReuHlc%3d&risl=&pid=ImgRaw&r=0" alt=""width="60px" /></div>
-                         <div className='slide'><img src="https://th.bing.com/th/id/R.362a504722e494b5a2930a1f27018e0a?rik=Tb%2fKbNNT%2f61miw&pid=ImgRaw&r=0" alt="" /></div>
-                         <div className='slide'> <img src="https://www.pinclipart.com/picdir/big/84-848818_soul-knight-alchemist-soul-knight-all-characters-clipart.png" alt=""width="60px"/></div>
-                         <div className='slide'><img src="https://www.pngkey.com/png/full/201-2011625_terraria-png.png" alt="" /></div>
-                        </div>
-                  </div>
-                 
+              <Slider {...settings}>
+        {images.map((src, index) => (
+          <div key={index}>
+            <img
+              src={src}
+              alt={`Slide ${index}`}
+              style={{ width: '100%', height: 'auto', margin: '0 auto' }}
+            />
+          </div>
+        ))}
+      </Slider>
+    
                   </div>
            
                 
