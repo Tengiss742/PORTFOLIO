@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./MultiBoxPopup.css";
 const popupContent = {
     1: {
-      title: "About Me",
-      content: "Hey! I'm working on my final project. This section is about me."
+      title: "meedku",
+      content: "eelde"
+    
     },
     2: {
       title: "Gaming",
@@ -44,8 +45,8 @@ const MultiBoxPopup = () => {
         <div className="popup-overlay active">
           <div className="popup-box">
             <span className="close-btn" onClick={closePopup}>×</span>
-            <h2>{popupContent[activePopup].title}</h2>
-            <p>{popupContent[activePopup].content}</p>
+            <h2 className="sugani">{popupContent[activePopup].title}</h2>
+            <p className="eehuur">{popupContent[activePopup].content}</p>
           </div>
         </div>
       )}
