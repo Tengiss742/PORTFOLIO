@@ -34,8 +34,32 @@ function Gaming(){
             <h1 className='most'>Favorite Games </h1>
             <div className='dragon'>
                <img src='https://jerseygaming.co.id/wp-content/uploads/2020/02/logo-mobile-legends-1024x643.png' alt=""width="300px" />
+               <div className='Mobile'>
+                <h1>MLBB</h1>
+                <div class="card__content">
+                <p class="card__title">MLBB</p>
+                <p class="card__description">
+                High rank: 57 star
+                <p className='card__description'>Most Played Hero: Helcurt</p>
+                <p className='card__description'>Played MLBB since season 20</p>
+                
+               </p>
+               
+                </div>
+                </div>
                <div className='logoshude'>
+                
                 <img src="https://cdn-icons-png.flaticon.com/512/480/480382.png" alt="" width="200px"/>
+                <div className='cube'>
+                  <h1>Rubick's cube</h1>
+                  <p>3x3 record: 23.76s</p>
+                  <p>4x4 record: 1min.52s</p>
+                  <p>5x5 record: 3min.13s</p>
+                  <p>6x6 record: 10min.7s</p>
+                  <p>7x7 record: 13min.56s</p>
+                  <p>megaminx record:5min.53s</p>
+                </div>
+
                </div>
               
                </div>
@@ -46,7 +70,7 @@ function Gaming(){
             <img
               src={src}
               alt={`Slide ${index}`}
-              style={{ width: '350px', margin: '0 auto', marginTop: "30vh"
+              style={{ width: '300px', margin: '0 auto', marginTop: "30vh"
                 
               }}
             />
