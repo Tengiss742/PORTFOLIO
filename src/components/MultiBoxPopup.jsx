@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import "./MultiBoxPopup.css";
 const popupContent = {
     1: {
-      title: "meedku",
-      content: "eelde"
+      title: "Childhood",
+      content: "When I was young I live in Arvaikheer",
+      img: "https://tse4.mm.bing.net/th/id/OIP.KvyeylpC_2o0pu3GcFZP9wHaDi?rs=1&pid=ImgDetMain",
+      img: "https://tse4.mm.bing.net/th/id/OIP.ww1sXOEswcxRH6B-xQ0OFAHaGp?rs=1&pid=ImgDetMain"
     
     },
     2: {
@@ -47,6 +49,8 @@ const MultiBoxPopup = () => {
             <span className="close-btn" onClick={closePopup}>×</span>
             <h2 className="sugani">{popupContent[activePopup].title}</h2>
             <p className="eehuur">{popupContent[activePopup].content}</p>
+            <img src={popupContent[activePopup].img} alt="" width="50%" className="zurag7" />
+            <img src={popupContent[activePopup].img} alt="" width="10%" className="zurag8" />
           </div>
         </div>
       )}

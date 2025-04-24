@@ -3,6 +3,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { useState } from 'react';
 
 const images = [
     'https://1.bp.blogspot.com/-zMJ5KA_mutU/X-wv7J5rr6I/AAAAAAAABVw/ICn99weE0qohh1rL5uORgajkO_JOKQqNgCLcBGAsYHQ/s2048/MLBB%2B%2528Mobil%2BLegends%2BBang%2BBang%2529%2B-%2BLogovectorXyz.png',
@@ -10,6 +11,8 @@ const images = [
     'https://logos-world.net/wp-content/uploads/2020/12/Dota-2-Logo.png',
     'https://pnghq.com/wp-content/uploads/roblox-logo-free-image-png-768x768.png',
     'https://cdn2.steamgriddb.com/logo_thumb/afa5b2e548f3d4a647ee75ec79bc60cd.png',
+    'https://www.pinclipart.com/picdir/big/546-5468131_shadow-fight-2-tournament-character-shadow-fight-2.png',
+    'https://th.bing.com/th/id/R.1ba7f6e37e04dcf63c5e1fceb18b6a0b?rik=5CjSKWdDCKj%2fXg&pid=ImgRaw&r=0'
 
   ];
 
@@ -27,6 +30,8 @@ function Gaming(){
         pauseOnHover: false,
       };
     
+      const [isVisible, setIsVisible] = useState(false);
+  
     return(
         <>
          <section id='Gaming'>
@@ -35,18 +40,24 @@ function Gaming(){
             <div className='dragon'>
                <img src='https://jerseygaming.co.id/wp-content/uploads/2020/02/logo-mobile-legends-1024x643.png' alt=""width="300px" />
                <div className='Mobile'>
-                <h1>MLBB</h1>
-                <div class="card__content">
-                <p class="card__title">MLBB</p>
-                <p class="card__description">
-                High rank: 57 star
-                <p className='card__description'>Most Played Hero: Helcurt</p>
-                <p className='card__description'>Played MLBB since season 20</p>
-                
-               </p>
-               
+                <h1 class="MLBB" onMouseEnter={()=>{setIsVisible(true); console.log("onmouseover")}} onMouseLeave={()=>{setIsVisible(false)}}>MLBB</h1>
                 </div>
-                </div>
+                {
+                  isVisible && (
+                      
+                      <div class="card__content">
+                        <p class="card__title">MLBB</p>
+                        <p class="card__description">
+                        High rank: 57 star
+                        <p className='card__description'>Most Played Hero: Helcurt</p>
+                        <p className='card__description'>Played MLBB since season 20</p>
+                        
+                        </p>
+                    
+                      </div>
+                  )
+                }
+
                <div className='logoshude'>
                 
                 <img src="https://cdn-icons-png.flaticon.com/512/480/480382.png" alt="" width="200px"/>

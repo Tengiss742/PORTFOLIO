@@ -113,8 +113,14 @@
   }
   .sugani{
   color:white;
+  font-size: 3rem;
   }
   .eehuur{
-    color: #023e8a;
+    color:white;
 
+  }
+  .zurag7{
+  border-radius: 12px; 
+  float: right;
+  width: 300px;
   }

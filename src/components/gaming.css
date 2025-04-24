@@ -190,6 +190,7 @@ color:white;
   text-align: center;
   font-size: 10px;
   overflow: hidden;
+  transition: 0.3s ease-in;
 }
 .Mobile:hover{
   background-color: #023e8a;
@@ -202,11 +203,11 @@ color: white;
 cursor: pointer;
 height: fit-content;
 transform: skew(0deg);
-transition: 2s;
+transition: 0.3s ease-out;
 
 
 }
-/* Example styling for popup and blur effect */
+
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -244,10 +245,10 @@ transition: 2s;
 }
 /* From Uiverse.io by gharsh11032000 */ 
 
-.Mobile:hover {
+/* .Mobile:hover {
   transform: rotate(0%) scale(1.1);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .card__content {
   position: absolute;
@@ -261,9 +262,14 @@ transition: 2s;
   background-color: #fff;
   opacity: 0;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  border-radius: 12px;
 }
-
-.Mobile:hover .card__content {
+.Mobile{
+  position: relative;
+}
+.card__content {
+  position: absolute;
+  z-index: 100000;
   transform: translate(-50%, -80%) rotate(0deg);
   opacity: 3;
   align-items: center;
@@ -291,4 +297,7 @@ transition: 2s;
  .cube p{
   font-size: larger;
   
+ }
+ .MLBB .card__content:hover{
+ animation-duration: 2s;
  }
