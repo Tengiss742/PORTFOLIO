@@ -84,7 +84,7 @@
     right: 15px;
     font-size: 24px;
     cursor: pointer;
-    color: black;
+    color: white;
   }
   .box1:hover{
     background-color:#023e8a;
@@ -121,6 +121,37 @@
   }
   .zurag7{
   border-radius: 12px; 
-  float: right;
+  float: left;
   width: 300px;
+  
+
+  }
+  .mortal{
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 140px;
+    
+  }
+
+  .popup-overlay {
+    position: fixed; /* stay on screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* full viewport height */
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* popup stays at the top (but we will push it down) */
+    z-index: 1000;
+    padding-top: 150px; /* <-- Push popup down! */
+  }
+  .zurag4{
+    margin-top: 260px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    padding-right:0;
+    width: 200px;
+    float: inline-start;
   }
